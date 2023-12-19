@@ -22,10 +22,10 @@ export default function Header() {
         <Link
           href="/"
           fontFamily="Righteous"
-          fontSize="lg"
+          fontSize="21px"
           _hover={{ textDecoration: "none", color:"blueTheme.navLinkActive",transition:"all .5s ease-in-out" }}
         >
-          Sasidhar {"</>"} {" "}
+          &nbsp; Sasidhar {"</>"} {" "}
         </Link>
 
         <HStack as="nav" spacing="5" display={{ base: "none", md: "flex" }}>

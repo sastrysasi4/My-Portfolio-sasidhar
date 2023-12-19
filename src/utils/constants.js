@@ -10,7 +10,6 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
-  FaEnvelope,
 } from "react-icons/fa";
 
 import {
@@ -19,17 +18,18 @@ import {
   TbBrandCpp,
   TbBrandRedux,
   TbBrandBootstrap,
+  TbDatabaseSearch 
 } from "react-icons/tb";
-import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoJquery, BiLogoPostgresql,BiLogoGmail  } from "react-icons/bi";
 import {
   SiPug,
   SiExpress,
   SiPostman,
   SiGnubash,
   SiNextdotjs,
+  SiGooglecloud 
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
-import { FaHashnode } from "react-icons/fa6";
 import {
   BsGlobe,
   BsCodeSlash,
@@ -39,7 +39,9 @@ import {
   BsMarkdown,
 } from "react-icons/bs";
 import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
-import { FcElectronics } from "react-icons/fc";
+import { LuBrainCircuit } from "react-icons/lu";
+import { IoHardwareChipOutline } from "react-icons/io5";
+import { FaRobot } from "react-icons/fa6";
 
 export const links = [
   { text: "Home", path: "/" },
@@ -53,20 +55,20 @@ export const links = [
 
 export const interestsData = [
   {
-    interest: "Software Engineering",
-    icon: BsCodeSlash,
+    interest: "Data Science",
+    icon: TbDatabaseSearch,
+  },
+  {
+    interest: "Machine Learning",
+    icon: LuBrainCircuit,
+  },
+  {
+    interest: "Artificial Intelligence",
+    icon: IoHardwareChipOutline,
   },
   {
     interest: "Gen AI",
-    icon: FaHashnode,
-  },
-  {
-    interest: "Internet of Things",
-    icon: FcElectronics,
-  },
-  {
-    interest: "Market Research",
-    icon: GiArchiveResearch,
+    icon: FaRobot,
   },
   {
     interest: "Visualization",
@@ -77,12 +79,16 @@ export const interestsData = [
     icon: AiFillCode,
   },
   {
-    interest: "Robotics",
-    icon: BsRobot,
+    interest: "Cloud",
+    icon: SiGooglecloud,
   },
   {
     interest: "Web Scraping",
     icon: BsGlobe,
+  },
+  {
+    interest: "Docker",
+    icon: FaDocker ,
   },
 ];
 
@@ -318,7 +324,7 @@ export const socialMediaLinks = [
   },
   {
     href: "mailto:Sastrysasi4@gmail.com",
-    icon: FaEnvelope,
+    icon: BiLogoGmail,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   }

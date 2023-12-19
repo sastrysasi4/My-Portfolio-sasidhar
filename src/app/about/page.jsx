@@ -38,19 +38,17 @@ const Page = () => {
               />
 
               <Box textAlign="justify">
-                <Heading size="xl" mb={3}>
-                  👋 Hey there
+                <Heading size="xl" mt={1} >
+                  👋 Hey there!
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                Hello, I'm Sasidhar, a dedicated and innovative professional in the dynamic fields of Data Science, AI/ML.
+                My journey in this ever-evolving domain has led me to delve deeply into Computer Vision and Natural Language Processing, unlocking new potentials and applications in these areas.
+                <br></br>
+                <br></br>
+                Currently, my passion and focus are centered on Generative AI, specifically exploring the vast capabilities of Large Language Models (LLMs). 
+                This area of expertise enables me to contribute to the cutting-edge of AI technology, where the creation of new, intelligent content and solutions is not just a possibility, but a reality.
                 </Text>
                 <br />
                 <Text>
