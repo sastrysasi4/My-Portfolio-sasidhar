@@ -43,7 +43,7 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                Hello, I'm Sasidhar, a dedicated and innovative professional in the dynamic fields of Data Science, AI/ML.
+                Hello, I am Sasidhar, a dedicated and innovative professional in the dynamic fields of Data Science, AI/ML.
                 My journey in this ever-evolving domain has led me to delve deeply into Computer Vision and Natural Language Processing, unlocking new potentials and applications in these areas.
                 <br></br>
                 <br></br>
