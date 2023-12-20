@@ -1,8 +1,4 @@
 import {
-  FaHtml5,
-  FaCss3,
-  FaReact,
-  FaSass,
   FaPython,
   FaNodeJs,
   FaDocker,
@@ -13,21 +9,21 @@ import {
 } from "react-icons/fa";
 
 import {
-  TbBrandTypescript,
-  TbBrandJavascript,
   TbBrandCpp,
-  TbBrandRedux,
-  TbBrandBootstrap,
-  TbDatabaseSearch 
+  TbDatabaseSearch,
+  TbHexagonLetterC 
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql,BiLogoGmail  } from "react-icons/bi";
 import {
-  SiPug,
-  SiExpress,
-  SiPostman,
-  SiGnubash,
-  SiNextdotjs,
-  SiGooglecloud 
+  SiGooglecloud ,
+  SiMysql,
+  SiTableau,
+  SiTensorflow,
+  SiPytorch,
+  SiFlask,
+  SiPandas,
+  SiScikitlearn,
+  SiMicrosoftazure
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import {
@@ -42,6 +38,9 @@ import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
 import { LuBrainCircuit } from "react-icons/lu";
 import { IoHardwareChipOutline } from "react-icons/io5";
 import { FaRobot } from "react-icons/fa6";
+import { DiGoogleCloudPlatform } from "react-icons/di";
+import { RiOpenaiFill } from "react-icons/ri";
+import { LuBird } from "react-icons/lu";
 
 export const links = [
   { text: "Home", path: "/" },
@@ -94,96 +93,68 @@ export const interestsData = [
 
 export const skillsData = [
   {
-    name: "HTML5",
-    icon: FaHtml5,
-  },
-  {
-    name: "CSS3",
-    icon: FaCss3,
-  },
-  {
-    name: "Javascript",
-    icon: TbBrandJavascript,
-  },
-  {
-    name: "Jquery",
-    icon: BiLogoJquery,
-  },
-  {
-    name: "Typescript",
-    icon: TbBrandTypescript,
-  },
-  {
-    name: "SASS",
-    icon: FaSass,
-  },
-  {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
-  },
-  {
-    name: "C/C++",
-    icon: TbBrandCpp,
-  },
-  {
     name: "Python",
     icon: FaPython,
   },
   {
-    name: "ReactJS",
-    icon: FaReact,
+    name: "C",
+    icon: TbHexagonLetterC ,
   },
   {
-    name: "NextJS",
-    icon: SiNextdotjs,
+    name: "C++",
+    icon: TbBrandCpp,
   },
   {
-    name: "Redux",
-    icon: TbBrandRedux,
+    name: "MySQL",
+    icon: SiMysql,
   },
   {
-    name: "NodeJs",
-    icon: FaNodeJs,
+    name: "Pandas",
+    icon: SiPandas,
   },
   {
-    name: "PugJs",
-    icon: SiPug,
+    name: "Tableau",
+    icon: SiTableau ,
   },
   {
-    name: "Express",
-    icon: SiExpress,
+    name: "Scikit",
+    icon: SiScikitlearn  ,
   },
   {
-    name: "Docker",
-    icon: FaDocker,
+    name: "Tensorflow",
+    icon: SiTensorflow ,
   },
   {
-    name: "Postgres",
-    icon: BiLogoPostgresql,
-  },
-  {
-    name: "Postman",
-    icon: SiPostman,
-  },
-  {
-    name: "Git",
-    icon: BsGit,
+    name: "Pytorch",
+    icon: SiPytorch ,
   },
   {
     name: "Github",
     icon: FaGithub,
   },
   {
-    name: "ChatGPT",
-    icon: GiArtificialIntelligence,
+    name: "Flask",
+    icon: SiFlask,
   },
   {
-    name: "Bash",
-    icon: SiGnubash,
+    name: "GCP",
+    icon: DiGoogleCloudPlatform,
   },
   {
-    name: "Markdown",
-    icon: BsMarkdown,
+    name: "Azure",
+    icon: SiMicrosoftazure,
+  },
+  {
+    name: "Docker",
+    icon: FaDocker,
+  },
+  {
+    name: "OpenAI",
+    icon: RiOpenaiFill,
+  },
+  {
+    name: "LangChain",
+    icon: LuBird,
   },
 ];
 
