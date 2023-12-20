@@ -160,50 +160,19 @@ export const skillsData = [
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    company: "Zelarsoft",
+    designation: "AI/ML Engineer",
+    duration: "August 2023 - Present",
+    companyImg: "zelar_logo.jpg",
     description: (
       <>
-        <ul>
-          <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
-          </li>
-          <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
-          </li>
-        </ul>
+          I am employed as a data scientist and AI/ML engineer. 
+          My experience includes developing Data analysis, Machine Learning and AI models. Along with expertise in various text-generation models including OpenAI, llama, falcon, and palm. 
+          Additionally, I have proficiency in utilizing a range of agents, tools, and LLM integration tools like Langchain. I also possess knowledge of Google and Azure cloud platforms, as well as a variety of computer vision tools.
       </>
     ),
   },
-  {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
-    description: (
-      <>
-        <ul>
-          <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
-          </li>
-          <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
-          </li>
-        </ul>
-      </>
-    ),
-  },
+
 ];
 
 export const projectsData = [

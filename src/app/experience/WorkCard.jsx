@@ -38,12 +38,12 @@ const WorkCard = (props) => {
               <Heading size="sm" my={2}>
                 {duration}
               </Heading>
-              <Text size="xs" my={2} fontStyle="italic">
+              <Text size="xs" my={2} >
                 {designation}
               </Text>
               <div
                 style={{
-                  marginLeft: "1.5rem",
+                  marginLeft: "1rem",
                   fontSize: "0.95rem",
                 }}
               >
