@@ -13,7 +13,7 @@ const Resume = () => {
     <>
       <Center>
         <Box width={["90vw", "90vw", "80vw"]} height="100%" marginTop="2rem" marginBottom="4rem">
-        <Button as="a" href="public\files\sasidhar_resume_v4.pdf" colorScheme="teal" size="sm" download="Masood_Akhtar_Vaheed_CV">
+        <Button as="a" href="/files/sasidhar_resume_v4.pdf" colorScheme="teal" size="sm" download="sasidhar_resume_v4">
               Download&nbsp;
               <AiOutlineDownload fill="black"/>
         </Button>
@@ -45,7 +45,7 @@ const Resume = () => {
                 padding: 0,
                 margin: 0,
               }}
-              src="https://www.canva.com/design/DAE02jCrTBo/view?embed"
+              src="https://www.canva.com/design/DAFfy9EoCko/view?embed"
               allowFullScreen
             ></iframe>
           </div>
